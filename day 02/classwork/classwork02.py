@@ -1,18 +1,47 @@
-# data type
+# davaleba 1
 
-# string
-# int
-# float
-# boolean
+num1 = float(input("chawere pirveli ricxvi: "))
+num2 = float(input("chawere meore ricxvi: "))
+num3 = float(input("chawere mesame ricxvi: "))
 
+jami = num1 + num2 + num3
 
-
-"hello lashla"
-11
-3.4
-
-#boolean
-True
-False
+print("ricxvebis jami:", jami)
 
 
+# davaleba 2
+
+user_1 = int(input("chawere saxeli: "))
+
+print(user_1)
+
+# davaleba 3
+
+
+numb1 = float(input("chawere sheni sasurveli ricxvi: "))
+numb2 = float(input("chawere sheni meore sasurveli ricxvi: "))
+
+if numb1 > numb2:
+    print(True)
+else:
+    print(False)
+
+
+
+# davaleba 4
+
+sityva = str(input("chawere sityva: "))
+n = int(input("chawere ramdenjer ganmeordeba es sityva: "))
+
+print(sityva * n)
+
+# davaleba 5
+
+number1 = input("chawere pirveli ricxvi: ")
+number2 = input("chawere meore ricxvi: ")
+
+jami1 = number1 + number2
+
+result = str(int(jami1) + 1)
+
+print(result)
