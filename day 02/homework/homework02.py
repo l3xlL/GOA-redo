@@ -1,4 +1,4 @@
-# davaleba 1
+# task 1
 
 first_string = "hello world"
 
@@ -9,7 +9,7 @@ print("Integer:", first_int)
 
 
 
-# davaleba 2
+# task 2
 
 second_string = "gamarjoba"
 second_string_gameoreba = "elementi " * 10

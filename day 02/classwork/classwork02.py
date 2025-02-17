@@ -1,4 +1,4 @@
-# davaleba 1
+# task 1
 
 num1 = float(input("chawere pirveli ricxvi: "))
 num2 = float(input("chawere meore ricxvi: "))
@@ -9,13 +9,13 @@ jami = num1 + num2 + num3
 print("ricxvebis jami:", jami)
 
 
-# davaleba 2
+# task 2
 
 user_1 = int(input("chawere saxeli: "))
 
 print(user_1)
 
-# davaleba 3
+# task 3
 
 
 numb1 = float(input("chawere sheni sasurveli ricxvi: "))
@@ -28,14 +28,14 @@ else:
 
 
 
-# davaleba 4
+# task 4
 
 sityva = str(input("chawere sityva: "))
 n = int(input("chawere ramdenjer ganmeordeba es sityva: "))
 
 print(sityva * n)
 
-# davaleba 5
+# task 5
 
 number1 = input("chawere pirveli ricxvi: ")
 number2 = input("chawere meore ricxvi: ")

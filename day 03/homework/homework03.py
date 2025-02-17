@@ -1,21 +1,26 @@
-# Task 1: Input four numbers and output their arithmetic mean
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-num3 = float(input("Enter the third number: "))
-num4 = float(input("Enter the fourth number: "))
+# task 1
 
-mean = (num1 + num2 + num3 + num4) / 4
-print("The arithmetic mean of the numbers is: " + str(mean))
+num1 = float(input("chawere pirveli ricxvi: "))
+num2 = float(input("chawere meore ricxvi: "))
+num3 = float(input("chawere mesame ricxvi: "))
+num4 = float(input("chawere meotxe ricxvi: "))
 
+jami = (num1 + num2 + num3 + num4) / 4
 
+print("am ricxvebis sashualo aritmetikuli aris: " + str(jami))
 
-# saxeli = str(input("chawere sheni saxeli: "))
-# gvari = str(input("chawere sheni gvari: "))
+# task 2
 
+saxeli = input("Enter your first name: ")
+gvari = input("Enter your last name: ")
 
-# print = ("mogesalmebit", saxeli + gvari)
+print("mogesalmebit " + saxeli + " " + gvari)
 
-# num5 = int(input("chawere pirveli ricxvi: "))
-# num6 = int(input("chawere meore ricxvi: "))
+# task 3
 
-# print = str(num5) + "😊" + str(num6)
+num5 = float(input("chawere pirveli ricxvi: "))
+num6 = float(input("chawere meore ricxvi: "))
+
+shedegi = num5 + "😊" + num6
+
+print("shedegi: " + shedegi)
