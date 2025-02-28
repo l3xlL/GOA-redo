@@ -24,8 +24,6 @@ else:
 
 # task 5
 
-# The expression is: True or True and False or True and False and False and True or False
-result = True or True and False or True and False and False and True or False
+trueorfalse = True or True and False or True and False and False and True or False
 
-# The output will be:
-print(result)
+print(trueorfalse)
