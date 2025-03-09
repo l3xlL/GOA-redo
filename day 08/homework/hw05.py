@@ -19,7 +19,7 @@ while True:
     user = int(input("sheiyvane ricxvi: "))
 
     if user == hidden_num:
-        print("gamoicani!")
+        print("gamoicani")
         break
     else:
         print("ar gamoicani")
