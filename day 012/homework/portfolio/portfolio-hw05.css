@@ -221,7 +221,11 @@ DIVIDER */
 
 
 
+
+
 /* DIVIDER: PORTFOLIO */
+
+
 
 
 
@@ -263,7 +267,13 @@ DIVIDER */
 
 
 
+
+
+
 /* PORT2 */
+
+
+
 
 
 
@@ -273,6 +283,10 @@ DIVIDER */
     height: 250px;
     width: auto;
 }
+
+
+
+
 
 
 
@@ -303,6 +317,9 @@ DIVIDER */
 
     list-style-type: none;
 }
+
+
+
 
 .skills li {
     font-family: 'Roboto Mono', monospace;
@@ -391,13 +408,17 @@ DIVIDER */
 
 
 
+
+
 .dd1 {
     height: 300px;
 }
 
 
+
+
 .projects img {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 
 
     display: block;
@@ -414,9 +435,17 @@ DIVIDER */
 
 
 .projects h1 {
-    margin-top: 180px;
+    margin-top: 230px;
     margin-left: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.projects h5 {
+    float: top;
+    margin-left: 300px;
+    margin-bottom: 300px;
 
     font-family: 'Roboto Mono', monospace;
 }
@@ -467,6 +496,7 @@ DIVIDER */
 }
 
 
+
 .contact h2 {
     font-size: 2.5rem;
 
@@ -513,6 +543,9 @@ textarea {
     background-color: #a1a1a1;
 }
 
+
+
+
 .contact a {
     background-color: #007bff00;
     color: white;
@@ -546,6 +579,9 @@ textarea::placeholder {
 }
 
 
+
+
+
 .contact img {
     width: 100%;
     max-width: 250px;
@@ -555,7 +591,9 @@ textarea::placeholder {
 
 
 
+
 /* RESPONSIVE FOR LATER */
+
 
 
 
