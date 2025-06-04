@@ -1,0 +1,17 @@
+.one {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+.two {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(91, 66, 131);
+}
+
+.three {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(61, 85, 65);
+}
