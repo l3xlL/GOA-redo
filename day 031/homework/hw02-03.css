@@ -1,0 +1,14 @@
+a {
+    border: 1px black solid;
+    background-color: blueviolet;
+}
+
+a:active {
+    border: 1px orange solid;
+    background-color: orange;
+}
+
+a:hover {
+        border: 1px blue solid;
+    background-color: blue;
+}

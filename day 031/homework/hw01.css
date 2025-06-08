@@ -1,0 +1,14 @@
+
+
+
+    .inside-list {
+      list-style-position: inside;
+      background-color: white;
+      padding: 10px;
+    }
+
+    .outside-list {
+      list-style-position: outside;
+      background-color: white;
+      padding: 10px;
+    }

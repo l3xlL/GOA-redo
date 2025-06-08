@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background-image: url("./blurry2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* DIVIDER: NAVBAR */
+
+.navbar li{
+    color: white;
+    margin: 0;
+    padding: 10px;
+
+    display: flex;
+
+    text-decoration: none;
+    list-style: none;
+
+    font-size: 25px;
+
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    margin-top: 40px;
+    margin-left: 50px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.navbar ul li{
+    display: inline;
+}
+
+.navbar li:hover {
+    color: #0090e481;
+}
+
+
+
+/* 
+DIVIDER: MAIN */
+
+
+
+.main {
+    height: 1024px;
+    width: 1440px;
+
+    margin: 50px auto;
+
+    margin-top: 50px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+
+}
+
+.left {
+    position: absolute;
+    top: 65%;
+    left: 16%;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    font-weight: 100;
+}
+
+.right {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+}
+
+.right img {
+    margin-top: 13px;
+
+    height: 229px;
+    width: 365px;
+
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.171);
+
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.right img:hover {
+    transform: scale(1.02);
+}
+
+.trailer img{
+    position: absolute;
+    top: 100%;
+    left: 51%;
+    color: white;
+
+    margin-top: 20px;
+
+    height: 120px;
+    width: 120px;
+
+    transition: 0.3s ease-in-out;
+
+}
+
+.trailer img:hover {
+    transform: scale(1.11);
+}
