@@ -1,0 +1,16 @@
+#second-paragraph {
+    color: #4B0082;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+.styled-paragraph {
+    color: #008080;
+    background-color: rgb(240, 230, 140);
+    padding: 8px;
+    border-left: 4px solid #008080;
+}
+
+p {
+    margin: 15px;
+}
