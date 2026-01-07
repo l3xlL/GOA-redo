@@ -1,6 +1,6 @@
 let i = 10
 
 do {
-    console.log(i)
-    i--
+    i--;
+    console.log(i);
 }while(i >= 1)

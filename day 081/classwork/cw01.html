@@ -1,0 +1,56 @@
+  <div class="canvas">
+    <div class="half-circle"></div>
+    <div class="cutout"></div>
+    <div class="trapezoid"></div>
+  </div>
+
+<style>
+  body {
+  margin: 0;
+}
+
+.canvas {
+  width: 400px;
+  height: 300px;
+  background: #5b3a6e;
+  position: relative;
+  overflow: hidden;
+}
+
+/* დიდი ნახევარწრე */
+.half-circle {
+  width: 280px;
+  height: 140px;
+  background: white;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cutout {
+  width: 80px;
+  height: 40px;
+  background: #5b3a6e;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trapezoid {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 140px;
+  background: #5b3a6e;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+</style>

@@ -1,0 +1,17 @@
+<img
+  src="image1.jpg"
+  id="myImage"
+  width="200"
+  onmouseover="changeImage()"
+  onmouseout="resetImage()"
+/>
+
+<script>
+  function changeImage() {
+    document.getElementById("myImage").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/960px-Black_colour.jpg";
+  }
+
+  function resetImage() {
+    document.getElementById("myImage").src = "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQTYqs7sdKEcPyiwd2zcyAAo7YZcfT2vVWK7GZYWUvVpFUYBJpXcR92m0P4wTkS4gxNs51TFlSNwl0hDKokQVE";
+  }
+</script>
