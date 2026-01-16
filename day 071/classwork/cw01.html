@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<div class="left-curve"></div>
+<div class="line middle"></div>
+<div class="line middle-vertical"></div>
+<div class="right-curve"></div>
+</div>
+
+<style>
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #243f3f;
+}
+
+
+.container {
+position: relative;
+width: 420px;
+height: 240px;
+}
+
+
+.line {
+position: absolute;
+background: #7FAF55;
+}
+
+
+.left-curve {
+width: 120px;
+height: 120px;
+border: 28px solid #7FAF55;
+border-top: none;
+border-right: none;
+border-radius: 0 0 0 120px;
+left: 20px;
+top: 80px;
+box-sizing: border-box;
+}
+
+
+.middle {
+width: 140px;
+height: 28px;
+left: 120px;
+top: 132px;
+}
+
+
+.middle-vertical {
+width: 28px;
+height: 108px;
+left: 260px;
+top: 52px;
+}
+
+
+.right-curve {
+width: 120px;
+height: 120px;
+border: 28px solid #7FAF55;
+border-bottom: none;
+border-left: none;
+border-radius: 0 120px 0 0;
+right: 20px;
+top: 20px;
+box-sizing: border-box;
+rotate: 280deg;
+}
+</style>
+</body>
+</html>
