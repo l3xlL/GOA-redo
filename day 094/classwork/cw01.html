@@ -1,0 +1,37 @@
+<body>
+  <div class="arch">
+    <div class="cutout"></div>
+  </div>
+</body>
+
+
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0ACD5;
+  }
+
+  .arch {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: #6A5885;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+
+  .cutout {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #B0ACD5;
+    border-radius: 50%;
+  }
+</style>

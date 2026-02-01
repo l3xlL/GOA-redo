@@ -1,0 +1,59 @@
+<body>
+  <div class="main">
+    <div class="shape left"></div>
+    <div class="shape right"></div>
+  </div>
+</body>
+
+
+
+<Style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #B6EBE7;
+}
+
+.main {
+  position: relative;
+  width: 400px;
+  height: 20px;
+}
+
+
+
+  
+.shape {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 40px solid #5E2BB7;
+  border-top: none;
+  border-radius: 0 0 10000px 1000px;
+}
+
+.shape::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 160px;
+  height: 80px;
+  background: #9382E4;
+  border-radius: 12px 120000px 120000px 120px;
+}
+
+
+
+  
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  transform: scaleX(-1);
+}
+</Style>

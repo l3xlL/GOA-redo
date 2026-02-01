@@ -1,0 +1,67 @@
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #668884;
+    }
+
+    .container {
+      display: flex;
+      gap: 60px;
+    }
+
+    .letter {
+      background: #EED9D9;
+    }
+
+    .a {
+      width: 120px;
+      height: 200px;
+      position: relative;
+    }
+
+    .a::before,
+    .a::after {
+      content: "";
+      position: absolute;
+      background: #668884;
+    }
+
+    .a::before {
+      width: 60px;
+      height: 80px;
+      top: 60px;
+      left: 30px;
+    }
+
+    .a::after {
+      width: 60px;
+      height: 60px;
+      bottom: 0;
+      left: 30px;
+    }
+
+    .one {
+      width: 90px;
+      height: 200px;
+      position: relative;
+    }
+
+    .one::before {
+
+      position: absolute;
+      width: 60px;
+      height: 30px;
+      background: #668884;
+      top: 0;
+      left: -30px;
+    }
+  </style>
+
+  <div class="container">
+    <div class="letter a"></div>
+    <div class="letter one"></div>
+  </div>

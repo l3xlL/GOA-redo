@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Veil Brides - BVB</title>
+  <link rel="stylesheet" href="./hw01.css">
+</head>
+<body>
+
+    
+
+  <header>
+    <h1>Black Veil Brides</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#music">Music</a>
+      <a href="#comments">Wall</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <h2>Never give in, never let anyone bring you down - Andy Sixx</h2>
+  </div>
+
+
+
+
+  <section id="about">
+    <h2>About Black Veil Brides</h2>
+    <div class="about">
+      <p>Black Veil Brides is an American rock band formed in 2006. Known for their unique style, blending glam metal, hard rock, and post-hardcore, they have inspired a massive fanbase worldwide. Their signature black attire, makeup, and theatrical performances set them apart.</p>
+      <p>The band has released multiple albums including "We Stitch These Wounds", "Set the World on Fire", and "Vale". With powerful lyrics, epic riffs, and anthemic choruses, BVB continues to dominate the rock scene and touch the hearts of fans globally.</p>
+    </div>
+  </section>
+
+
+
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="./one.jpg" alt="Band Live 1">
+      <img src="./two.jpg" alt="Band">
+      <img src="./three.jpg" alt="Band Photo">
+      <img src="./four.jpg" alt="Band Members">
+    </div>
+  </section>
+
+
+
+  <section id="music">
+    <h2>Popular Songs</h2>
+    
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/29Od8h2a4HZyD0PZ8SkBo6?utm_source=generator&theme=0" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2RxqHa7EgbKHEjYav48eXX?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4wn0yAuwAiEtcFB9mSQmPV?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+     </section>
+
+
+
+
+  <section id="comments">
+    <h2>Fan Wall</h2>
+    <div class="comments">
+      <form class="comment-form" id="commentForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <textarea id="message" placeholder="Your Comment" rows="4"></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <ul class="comment-list" id="commentList"></ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Black Veil Brides Fan Page
+  </footer>
+
+  <script>
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({behavior: 'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>
